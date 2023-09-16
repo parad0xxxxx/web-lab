@@ -1,0 +1,6 @@
+.side_map {
+  width: 300px; height: 300px; /* Ширина и высота */
+  border-radius: 50%; /* Превращаем в круг */
+  background: url(https://cs12.pikabu.ru/post_img/big/2022/03/13/10/1647191056186410381.jpg) no-repeat -70px 0; /* Параметры фона */
+  background-size: auto 300px; /* Высота фотографии равна высоте элемента */
+ }
