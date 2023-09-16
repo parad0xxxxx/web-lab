@@ -4,3 +4,17 @@
   background: url('https://cs12.pikabu.ru/post_img/big/2022/03/13/10/1647191056186410381.jpg') no-repeat -70px 0; /* Параметры фона */
   background-size: auto 300px; /* Высота фотографии равна высоте элемента */
  }
+
+ #first {
+  /* background-color: azure;
+   background-image: url('https://pibig.info/uploads/posts/2022-12/thumbs/1669908633_1-pibig-info-p-minimalistichnie-oboi-na-rabochii-stol-kra-1.jpg');
+   background-repeat: no-repeat;
+   background-position: center;*/
+   background: url('https://pibig.info/uploads/posts/2022-12/thumbs/1669908633_1-pibig-info-p-minimalistichnie-oboi-na-rabochii-stol-kra-1.jpg') no-repeat center #eb4034;
+   /*100% ширины и высоты*/
+   /*height: 100vh;  */
+   height: 1200px;
+   /*растянуть на экран */
+   background-size: cover;
+   background-attachment: fixed;
+}
