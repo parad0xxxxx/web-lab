@@ -1,2 +1,3 @@
 # web-lab
-Web development lab 2
+Classwork assignment nr.1
+Starfield themed game sketch
