@@ -1,2 +1,2 @@
 # web-lab
-Frontend UI Sketch 16-Sept-2023
+Web development lab 2
