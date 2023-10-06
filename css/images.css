@@ -6,3 +6,75 @@
      /* no-repeat -70px 0; Параметры фона */
      background-size: auto 300px; /* Высота фотографии равна высоте элемента */
     }
+
+    body{
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        background-image: url("https://cdn.akamai.steamstatic.com/steam/apps/1086940/ss_c73bc54415178c07fef85f54ee26621728c77504.1920x1080.jpg");
+    }
+    
+    .map{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    
+    .topBar{
+        position: absolute;
+        top: -40px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 1250px;
+        mix-blend-mode: multiply;
+    
+        
+    }
+    
+    .bottomBar{
+        display: flex;
+        position: absolute;
+        bottom: 60px;
+        left: 47%;
+        transform: translate(-50%, 0);
+    }
+    
+    
+    
+    .bottomBar__element div{
+        width: 150px;
+        height: 150px;
+        display: flex;
+        align-items: center;    
+        justify-content: center;
+        
+        margin-left: 10px;
+        font-size: 38px;
+        text-shadow: 3px -4px 5px black ;
+        color: white;
+    }
+    
+    
+    
+    .chat{
+        width: 450px;
+        right: 5px;
+        bottom: 5px;
+        position: absolute;
+        
+    }
+    
+    
+    .leftBar{
+        position: absolute;
+        bottom: 5px;
+        left: 5px;
+        width: 350px;
+       }
+    
+    
+    
